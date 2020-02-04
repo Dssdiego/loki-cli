@@ -8,11 +8,10 @@ const commands = require('../lib/commands.js');
 prog
     .version('1.0.0')
     .command('about', 'About the app')
-    .action(commands.about);
+    .action(commands.about)
 
-prog
-    .command('', 'Converts HEX to String')
-    .argument('[hex...]', 'HEX to be converted')
+    .command('hex2str', 'Converts HEX string to readable text')
+    .argument('[hex..]', 'HEX to be converted')
     .action(commands.hex2str);
 
 prog.parse(process.argv);

@@ -1,7 +1,7 @@
 {
-  "name": "loki-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@dssdiego/loki-cli",
+  "version": "0.0.1",
+  "description": "loki-cli",
   "main": "loki.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Dssdiego/loki-cli.git"
   },
   "bin": {
-    "loki": "./bin/loki.js"
+    "loki": "bin/loki.js"
   },
   "keywords": [],
   "author": "Diego S. Seabra",
@@ -30,5 +30,13 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
     "touch": "^3.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Dssdiego/loki-cli/issues"
+  },
+  "homepage": "https://github.com/Dssdiego/loki-cli#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
